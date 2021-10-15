@@ -60,7 +60,7 @@ data:
     @INCLUDE input-kubelet.conf
     @INCLUDE input-kubeproxy.conf
     @INCLUDE output-loki.conf
-    #@INCLUDE filter-kubernetes.conf
+    @INCLUDE filter-kubernetes.conf
 
   input-kube-apiserver.conf: |
     [INPUT]
